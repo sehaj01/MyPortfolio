@@ -1,5 +1,5 @@
 body {
-  color: #40514E;
+  color: black /* #40514E*/;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
@@ -23,6 +23,7 @@ h2 {
 h3 {
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
+
 }
 
 p {
@@ -31,7 +32,7 @@ p {
 
 
 hr {
-  border: dotted #EAF6F6 6px;
+  border: dotted  #EAF6F6 6px;
   border-bottom: none;
   width: 4%;
   margin: 100px auto;
@@ -43,7 +44,7 @@ hr {
 }
 
 .top-container{
-  background-color: #E4F9F5;
+  background-color: #022D41 /* #E4F9F5*/;
   padding-top: 100px;
   position: relative;
 }
@@ -53,7 +54,7 @@ hr {
 }
 
 .bottom-container{
-  background-color: #66BFBF;
+  background-color: #022D41 /* #66BFBF*/;
     padding: 50px 0 20px;
 }
 
@@ -74,6 +75,15 @@ hr {
   width:25%;
   float:right;
   margin-left: 30px;
+}
+
+.org-heading{
+  font-size: 24px;
+}
+
+.org-desc{
+  font-weight:normal;
+  font-size:15px;
 }
 
 .top-cloud{
